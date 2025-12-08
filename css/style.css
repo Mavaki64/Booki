@@ -474,7 +474,6 @@ form > button > i.fa-solid {
 
     .hebergements .card-content {
         margin-bottom: 9.25px;
-        
     }
 
     .populaires {
@@ -640,7 +639,7 @@ form > button > i.fa-solid {
 
     .filter-button {
         flex: 0 0 calc(50% - 5px);
-        width: calc(50%-5px);
+        width: calc(50% - 5px);
     }
 
     .hebergements-and-populaires {
