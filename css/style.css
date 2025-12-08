@@ -38,7 +38,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
 }
 
 h3 {
@@ -156,7 +156,6 @@ form {
     max-width: 377px;
     height: 49px;
     border-radius: 15px;
-    border: 1px solid var(--main-bg-color);
     box-sizing: border-box;
     font-size: 18px;
     font-weight: 700;
@@ -168,11 +167,13 @@ form > i.fa-solid {
     justify-content: center;
     background-color: var(--main-bg-color);
     color: black;
+    border: 1px solid var(--main-bg-color);
     width: 50px;
     height: 100%;
     flex-shrink: 0;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    box-sizing: border-box;
 }
 
 input,
@@ -188,6 +189,7 @@ form input[type="search"] {
     box-sizing: border-box;
     flex: 1;
     text-align: center;
+    border: 1px solid var(--main-bg-color);
 }
 
 form button[type="submit"] {
@@ -199,6 +201,7 @@ form button[type="submit"] {
     height: 100%;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    border: 1px solid var(--main-color);
 }
 
 form > button > i.fa-solid {
@@ -387,6 +390,10 @@ form > button > i.fa-solid {
     box-sizing: border-box;
 }
 
+.activites .section-title {
+    line-height: 1.36;
+}
+
 .activites-cards {
     display: flex;
     flex-direction: row;
@@ -465,6 +472,11 @@ form > button > i.fa-solid {
         width: 100%;
     }
 
+    .hebergements .card-content {
+        margin-bottom: 9.25px;
+        
+    }
+
     .populaires {
         width: 100%;
         gap: 20px;
@@ -523,6 +535,10 @@ form > button > i.fa-solid {
         padding: 0;
         width: 100%;
         max-width: none;
+        gap: 30px;
+    }
+
+    main {
         gap: 35px;
     }
 
@@ -659,7 +675,7 @@ form > button > i.fa-solid {
         width: 100%;
     }
 
-    .hebergements .card-rating{
+    .hebergements .card-rating {
         height: 18.25px;
         line-height: 1;
         font-size: 18.25px;
@@ -676,10 +692,6 @@ form > button > i.fa-solid {
         gap: 30px;
         width: 100%;
         box-sizing: border-box;
-    }
-
-    .activites .section-title {
-        line-height: 1.36;
     }
 
     .activites-cards {
