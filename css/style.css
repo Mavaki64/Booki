@@ -523,7 +523,6 @@ form > button > i.fa-solid {
     html,
     body {
         width: 100%;
-        overflow-x: hidden;
     }
 
     body {
@@ -534,6 +533,7 @@ form > button > i.fa-solid {
         padding: 0;
         width: 100%;
         max-width: none;
+        min-width: 320px;
         gap: 30px;
     }
 
