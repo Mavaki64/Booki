@@ -1,5 +1,11 @@
 # Booki - Page d'accueil d'une agence de voyage
 
+## 🌐 Live Demo
+
+**[👉 Voir le site en ligne](https://mavaki64.github.io/Booki/)** | [🔗 GitHub Pages](https://mavaki64.github.io/Booki/)
+
+> 🚀 Le site est hébergé sur GitHub Pages et accessible directement en ligne !
+
 ## 📋 Description du projet
 
 Booki est un projet de formation visant à développer la page d'accueil d'une agence de voyage. Ce projet représente mon premier véritable projet d'intégration HTML/CSS réalisé dans le cadre de ma formation d'intégrateur web.
