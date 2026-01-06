@@ -60,6 +60,13 @@ a {
     text-decoration: none;
 }
 
+.h4-sized-title{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #000000;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -241,6 +248,7 @@ form > button > i.fa-solid {
     font-size: 17px;
     font-weight: 700;
     cursor: pointer;
+    background-color: white;
 }
 
 .filter-button:hover {
